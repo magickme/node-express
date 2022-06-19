@@ -1,0 +1,9 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Web Development with Node & Express",
+  "main": "index.js",
+  "repository": "https://github.com/magickme/node-express.git",
+  "author": "Jason Louv <jason@ultraculture.org>",
+  "license": "MIT"
+}
