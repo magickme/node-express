@@ -18,7 +18,7 @@ const port = process.env.PORT || 3000
 app.get('/', (req, res) => res.render('home'))
 
 app.get('/about', (req, res) => {
-    const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)]
+    const randomFortune = fortune[Math.floor(Math.random() * fortune.length)]
     res.render('about', { fortune: fortune.getFortune() })
 })
 
