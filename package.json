@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/magickme/node-express.git",
   "author": "Jason Louv <jason@ultraculture.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
 }
